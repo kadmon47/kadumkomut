@@ -310,6 +310,9 @@ footer .footer-text {
     }
   }
   @media only screen and (max-width: 780px) {
+      .contacts {
+          height: auto;
+      }
       .contacts .row {
           grid-template-columns: 1fr 1fr 1fr;
       }
@@ -338,6 +341,15 @@ footer .footer-text {
     }
     .header p {
         font-size: 15px;
+    }
+    .about .row .col img {
+        width:200px;
+    }
+    .about .row .col h1 {
+        font-size: 30px;
+    }
+    .about .row .col p {
+        font-size: 20px;
     }
   }
   @media only screen and (max-width: 575px) {
