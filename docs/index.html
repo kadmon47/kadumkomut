@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kadum Komut</title>
-    <link rel="icon" href="images/kadum.png">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link rel="icon" href="kadumIcon.jpg" >
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/scrollbar.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet"><script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
 
@@ -17,15 +19,19 @@
       </div> 
 
       <div class="navbar-fixed">
-        <a href="#top"><div class="col">Top</div></a>
+        <a href="#start"><div class="col">Start</div></a>
         <a href="#project"><div class="col">Project</div></a>
         <a href="#about"><div class="col">About</div></a>
         <a href="#skills"><div class="col">Skills</div></a>
         <a href="#timeline"><div class="col">Timeline</div></a>
         <a href="#footer"> <div class="col">Hire me</div></a>
       </div>
+
+      <div class="stickyHeader">
+          <h1>WELCOME</h1>
+      </div>
     
-<div class="header" id="top">
+<div class="header" id="start">
     <h1>KADUM KOMUT</h1>
     <p>FULL STACK WEB DEVELOPER</p>
     <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320">
@@ -42,19 +48,19 @@
         <div class="col">
             <h1><a href="https://fir-project-9bafb.web.app/" target="_blank">MOKO</a></h1>
             <span class="tagGreen tag">React</span><span class="tag tagRed">Firebase</span>
-            <img src="images/moko.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;"/>
+            <img src="../images/moko.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;"/>
             <h3>It is a chat application build in react and firebase.</h3>
         </div>
         <div class="col">
             <h1><a href="https://kadmon47.github.io/Elorating-React/" target="_blank">ELORATING</a></h1>
             <span class="tag tagGreen">React</span><span class="tagBlue tag">Bootstrap</span><span class=" tag tagViolet">Elorating</span>
-            <img src="images/elorating.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;"/>
+            <img src="../images/elorating.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;"/>
             <h3>It is a Elorating calculator where you see live rating and its win probability.</h3>
         </div>
         <div class="col">
             <h1><a href="https://todolist-883c4.firebaseapp.com/" target="_blank">PENTODO</a></h1>
             <span class="tag tagGreen">React</span><span class="tag tagRed">Firebase</span><span class="tag tagBlue">Bootstrap</span>
-            <img src="images/pentodo.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;border: 1px solid black;"/>
+            <img src="../images/pentodo.png" style="max-width: 100%;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;border: 1px solid black;"/>
             <h3>It is a todo list application build using react and firebase.</h3>
         </div>
     </div>
@@ -65,7 +71,7 @@
 </div>
 <div class="about" id="about">
     <div class="row">
-        <div class="col profile"><img src="images/kadum.jpg"/></div>
+        <div class="col profile"><img src="../images/kadum.jpg"/></div>
         <div class="col information">
             <h1>Kadum Komut</h1>
             <p>When i am not programming, i like to cook, play guitar, sing, solve rubiks cube, play chess and watch movies!</p>
@@ -172,7 +178,7 @@
       <div class="timeline-container right">
         <div class="content">
           <h2>Sep 2020</h2>
-          <p>Pandemic arrived, I learned React, firebase, some brushed up html, css, javascript. Began working on MOKO project.
+          <p>I learned React, firebase, some brushed up html, css, javascript. Began working on MOKO project.
           </p>
         </div>
       </div>
@@ -203,8 +209,6 @@
 
 
 <script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
 <script>
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
