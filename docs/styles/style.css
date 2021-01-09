@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
@@ -95,6 +94,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 .stickyHeader h1 {
     font-size: 4em;
